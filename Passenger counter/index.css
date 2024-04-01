@@ -28,6 +28,7 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #increment-btn {

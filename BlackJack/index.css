@@ -1,3 +1,23 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Trebuchet MS',
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background: url(./green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  color: white;
+  font-weight: bold;
+}
+
 h1 {
   color: goldenrod;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#message-el {
+  font-style: italic;
 }

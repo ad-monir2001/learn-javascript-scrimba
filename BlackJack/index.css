@@ -21,3 +21,13 @@ p {
 #message-el {
   font-style: italic;
 }
+
+button {
+  color: #016f32;
+  background-color: goldenrod;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

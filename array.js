@@ -19,3 +19,5 @@ let education = [
     "SSC",
     "HSC"
 ]
+
+console.log(education[1])

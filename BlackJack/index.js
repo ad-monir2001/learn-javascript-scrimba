@@ -1,7 +1,7 @@
 let firstCard = 10;
 let secondCard = 11;
 let card = 5;
-let cards = [firstCard, secondCard]
+let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
@@ -32,5 +32,6 @@ function renderGame() {
 
 function newCard() {
   sum += card;
+  cards.push(card);
   renderGame();
 }

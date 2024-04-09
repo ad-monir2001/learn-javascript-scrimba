@@ -13,7 +13,7 @@ let cardsEl = document.getElementById('cards-el');
 
 let playerEl = document.getElementById('player-el');
 console.log(playerEl)
-playerEl.textContent = player.playerName +" "+"$"+ player.chips;
+playerEl.textContent = player.playerName +": $"+ player.chips;
 
 function getRandomCard() {
   let randomNumber = Math.floor(Math.random() * 13) + 1;

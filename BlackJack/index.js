@@ -1,3 +1,7 @@
+let player = {
+  playerName: 'Salauddin',
+  chips: 150,
+};
 let cards = [];
 let sum = 0;
 let hasBlackJack = false;
@@ -6,6 +10,10 @@ let message = '';
 let messageEl = document.getElementById('message-el');
 let sumEl = document.querySelector('#sum-el');
 let cardsEl = document.getElementById('cards-el');
+
+let playerEl = document.getElementById('player-el');
+console.log(playerEl)
+playerEl.textContent = player.playerName +" "+"$"+ player.chips;
 
 function getRandomCard() {
   let randomNumber = Math.floor(Math.random() * 13) + 1;

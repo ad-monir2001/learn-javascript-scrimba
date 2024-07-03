@@ -16,3 +16,5 @@ You are welcome here.
 ## End date:
 
 01-05-24
+
+# It was an amaizing journey. And i have learned about many thing on Javascript.
